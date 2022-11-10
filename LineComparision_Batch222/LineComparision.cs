@@ -37,9 +37,13 @@ namespace LineComparision_Batch222
             {
                 Console.WriteLine("Lines are equal");
             }
+            else if (Linelength_01 >Linelength_02)
+            {
+                Console.WriteLine("Line 01 is greater than line 02");
+            }
             else
             {
-                Console.WriteLine("Lines are unequal");
+                Console.WriteLine("Line 02 is greater than line 01");
             }
         }
     }
