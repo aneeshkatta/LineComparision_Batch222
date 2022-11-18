@@ -33,7 +33,7 @@ namespace LineComparision_Batch222
             double Y2 = Convert.ToDouble(Console.ReadLine());
             double Linelength_02 = Math.Sqrt(Math.Pow(X2 - X1, 2) + Math.Pow(Y2 - Y1, 2));
             Console.WriteLine("Linelength calculated is :" + Linelength_02);
-            if (Linelength_01== Linelength_02)
+            if (Linelength_01.Equals(Linelength_02))
             {
                 Console.WriteLine("Lines are equal");
             }
