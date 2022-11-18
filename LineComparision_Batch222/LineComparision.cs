@@ -19,8 +19,8 @@ namespace LineComparision_Batch222
             double x2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter end point of line (y2) value in y axis");
             double y2 = Convert.ToDouble(Console.ReadLine());
-            double Linelength = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-            Console.WriteLine("Linelength calculated is :" + Linelength);
+            double lineLength = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
+            Console.WriteLine("Linelength calculated is :" + lineLength);
         }
     }
 }
