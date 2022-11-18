@@ -21,11 +21,7 @@ namespace LineComparision_Batch222
             Console.WriteLine("Enter end point of line (y2) value in y axis");
             double y2 = Convert.ToDouble(Console.ReadLine());
             double Linelength_01 = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-<<<<<<< HEAD
-            Console.WriteLine("Linelength calculated is :{0}",  Linelength_01);
-=======
             Console.WriteLine("Linelength calculated is :{0}" , Linelength_01);
->>>>>>> Uc3_lineslengthcompare
             Console.WriteLine("Enter line 02 co-ordinates");
             Console.WriteLine("Enter start point of line  (X1) value in x axis");
             double X1 = Convert.ToDouble(Console.ReadLine());
@@ -37,11 +33,7 @@ namespace LineComparision_Batch222
             double Y2 = Convert.ToDouble(Console.ReadLine());
             double Linelength_02 = Math.Sqrt(Math.Pow(X2 - X1, 2) + Math.Pow(Y2 - Y1, 2));
             Console.WriteLine("Linelength calculated is :{0}" , Linelength_02);
-<<<<<<< HEAD
-            if (Linelength_01.Equals(Linelength_02))
-=======
             if (Linelength_01.CompareTo(Linelength_02)==0)
->>>>>>> Uc3_lineslengthcompare
             {
                 Console.WriteLine("Lines are equal");
             }
