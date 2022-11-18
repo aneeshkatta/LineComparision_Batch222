@@ -20,7 +20,6 @@ namespace LineComparision_Batch222
             double x2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Enter end point of line (y2) value in y axis");
             double y2 = Convert.ToDouble(Console.ReadLine());
-<<<<<<< HEAD
             double Linelength_01 = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
             Console.WriteLine("Linelength calculated is :{0}",  Linelength_01);
             Console.WriteLine("Enter line 02 co-ordinates");
@@ -46,10 +45,6 @@ namespace LineComparision_Batch222
             {
                 Console.WriteLine("Line 02 is greater than line 01");
             }
-=======
-            double lineLength = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2));
-            Console.WriteLine("Linelength calculated is :" + lineLength);
->>>>>>> uc1_calclinelength
         }
     }
 }
